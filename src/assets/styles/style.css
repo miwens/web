@@ -13,40 +13,40 @@
 .paragraph {
     font-size: 16px;
     line-height: 26px;
-    color: #1F3F68;
+    color: #1F3F68
 }
 
-.title {
+.heading1 {
     font-size: 64px;
-    color: #1F3F68;
+    color: #1F3F68
 }
 
-.header-two {
+.heading2 {
     font-weight: 500;
     font-size: 44px;
-    text-align: center;
+    text-align: center
 }
 
-.header-three {
+.heading3 {
     font-size: 36px;
-    text-align: center;
+    text-align: center
 }
 
-.header-four {
+.heading4 {
     font-size: 20px;
     line-height: 30px;
-    color: #1F3F68;
+    color: #1F3F68
 }
 
-.form-input {
+.input {
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
-    opacity: 0.4;
+    opacity: 0.4
 }
 
-.submit-form-button {
-    background: linear-gradient(to right, #4B76E6, #8C55E9);
+.submit {
+    background: linear-gradient(to right, rgb(73, 117, 230), rgb(140, 85, 233));
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
     font-weight: 500;
@@ -59,30 +59,33 @@
     padding: 5px 20px;
 }
 
-form {
-    background-image: url('../img/form-bg.jpg');
-    background-position: top;
+.form {
+    background-image: url('../img/фон.jpeg');
+    width: 240px;
     background-size: cover;
-    background-repeat: no-repeat;
-    padding: 40px 20px;
+    padding: 30px;
+    border-radius: 10px;
 }
 
-header ul {
-    overflow: hidden;
-    padding: 0;
-    background: linear-gradient(to top, #4C7F8D, #F3F6F6 );
-}
-
-header ul li {
+.breadcrumbs ul {
+    display: flex;
     list-style: none;
-    position: relative;
-    display: inline-block;
-    border-radius: 0px 32px 32px 0;
-    padding: 16px;
+    padding: 0;
+    margin: 20px 0;
+    background: linear-gradient(white, rgb(66, 132, 133));
+    overflow: hidden;
+}
+
+.breadcrumbs li {
+    margin: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     box-shadow: -2px 0 2px #FFFFFF inset, 2px 0 2px #000000;
 }
 
-header ul li a {
+.breadcrumbs a {
+    display: block;
+    padding: 8px 16px;
     text-decoration: none;
-    color: #000000;
+    color: black;
 }
